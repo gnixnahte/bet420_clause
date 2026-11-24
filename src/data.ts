@@ -79,5 +79,3 @@ export const apps = {
  finding('term-3','Plus renews every year','Membership renews annually unless canceled before the renewal date. Unused time generally is not refunded.','Check the renewal date if you only travel occasionally.','Subscription term','The period of paid access before a subscription renews.')],cards:['A weekend off the grid','Your next city escape','Make room for the scenic route']}
 };
 export type AppId = keyof typeof apps;
-
-export { socialPolicy as policy, socialFindings as findings, socialTerms as terms };
